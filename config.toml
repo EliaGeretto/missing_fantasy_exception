@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://aliverix.homepc.it/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo_theme_pickles"
