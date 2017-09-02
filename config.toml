@@ -2,3 +2,8 @@ baseURL = "https://aliverix.homepc.it/"
 languageCode = "en-us"
 title = "MissingFantasyException"
 theme = "hugo_theme_pickles"
+
+[params]
+  github = "EliaGeretto"
+  twitter = "EliaGeretto"
+  facebook = "EliaGeretto"
