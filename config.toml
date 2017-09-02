@@ -4,6 +4,11 @@ title = "MissingFantasyException"
 theme = "hugo_theme_pickles"
 
 [params]
+  author = "Elia Geretto"
+  avatar = "/images/profile.jpg"
+  bio = "Security Enthusiast - CTF Player - CS Master Student"
+  pgp = "E6A2 C263 8783 04FD 68D9 82D0 B2FC 5634 96A7 9DCF"
+
   github = "EliaGeretto"
   twitter = "EliaGeretto"
   facebook = "EliaGeretto"
