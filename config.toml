@@ -1,6 +1,6 @@
 baseURL = "https://aliverix.homepc.it/"
 languageCode = "en-us"
-title = "MissingFantasyException"
+title = "MissingFantasy<wbr>Exception"
 theme = "hugo_theme_pickles"
 
 [params]
