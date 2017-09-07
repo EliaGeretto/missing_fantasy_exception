@@ -4,6 +4,7 @@ title = "MissingFantasy<wbr>Exception"
 theme = "hugo_theme_pickles"
 
 [params]
+  subtitle = "Yet another oddly-titled IT security blog"
   author = "Elia Geretto"
   avatar = "/images/profile.jpg"
   bio = "Security Enthusiast - CTF Player - CS Master Student"
