@@ -5,6 +5,8 @@ theme = "hugo_theme_pickles"
 
 [params]
   subtitle = "Yet another oddly-titled IT security blog"
+  favicon = "/images/favicon.png"
+
   author = "Elia Geretto"
   avatar = "/images/profile.jpg"
   bio = "IT Security Enthusiast - CTF Player - CS Master Student"
