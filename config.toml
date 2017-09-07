@@ -7,7 +7,7 @@ theme = "hugo_theme_pickles"
   subtitle = "Yet another oddly-titled IT security blog"
   author = "Elia Geretto"
   avatar = "/images/profile.jpg"
-  bio = "Security Enthusiast - CTF Player - CS Master Student"
+  bio = "IT Security Enthusiast - CTF Player - CS Master Student"
 
   github = "EliaGeretto"
   twitter = "EliaGeretto"
