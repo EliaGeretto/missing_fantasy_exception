@@ -63,6 +63,7 @@ the same directory, everything works as it should.
 
 After this step, I wrote my Git hook, which turned out to be as follows:
 
+{{<highlight bash>}}
 	#!/bin/bash
 
 	SOURCE_DIR=$HOME/website
@@ -88,6 +89,7 @@ After this step, I wrote my Git hook, which turned out to be as follows:
 	hugo -s $WORKING_DIRECTORY/$WEBSITE_REPO -d $PUBLIC_WWW -b $MY_URL
 	rm -rf $WORKING_DIRECTORY
 	trap - EXIT
+{{</highlight>}}
 
 As you can see, it should be able to handle gracefully errors that happen
 during the building of the website and restore a backup copy that is created at

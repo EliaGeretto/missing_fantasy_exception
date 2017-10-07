@@ -2,6 +2,7 @@ baseURL = "https://egeretto.h4ck.me/"
 languageCode = "en-us"
 title = "MissingFantasy<wbr>Exception"
 theme = "hugo_theme_pickles"
+pygmentsStyle = "manni"
 
 [params]
   subtitle = "Yet another oddly-titled IT security blog"
