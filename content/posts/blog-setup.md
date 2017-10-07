@@ -1,5 +1,5 @@
 ---
-title: "Blog Setup"
+title: "Blog Setup - Webserver & Hugo"
 date: 2017-09-07T15:21:43+02:00
 ---
 
