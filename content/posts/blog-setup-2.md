@@ -21,22 +21,18 @@ This operation deserves a separate section since it turned out to be a little
 bit more complex than I first expected. Indeed, after installing the `hugo`
 package provided by Raspbian, I discovered that it was almost one year old and
 that the theme I chose did not support it. As a consequence, I went looking for
-a newer version on [GitHub][hugo-releases], but unfortunately they did not have
-the appropriate precompiled package for my Pi3; as a consequence, I had to
-compile the whole thing from scratch.
+a newer version on [GitHub][hugo-releases] and, fortunately, I was able to find
+the correct one with the "Linux-ARM" label. It is important to remember that
+Raspbian is still a 32 bits distribution, even if the Raspberry Pi 3 has a 64
+bits ARM processor.
 
-The first step for compilation was to get the [Go][go] compiler and then, after
-that, use it to download and compile Hugo and its dependecies. The sequence of
-commands I used to do that was:
+After downloading the package with `wget`, I was able to install it quite easily
+under `/usr/local/` in order not to clutter my installation. The sequence of
+command I used is the following:
 
-	$ sudo apt install golang-go
-	$ GOPATH=~/hugo go get -v -u github.com/gohugoio/hugo
-
-After waiting a considerable amount of time for the compilation to finish, I
-was able to install the `hugo` executable on my system using the following
-command:
-
-	$ cp ~/hugo/bin/hugo /usr/local/bin/
+	$ wget https://github.com/gohugoio/hugo/releases/download/v<version>/hugo_<version>_Linux-ARM.tar.gz
+	$ tar xf hugo_<version>_Linux-ARM.tar.gz
+	$ cp ~/hugo /usr/local/bin/
 
 [hugo-releases]: https://github.com/gohugoio/hugo/releases
 [go]: https://golang.org/
