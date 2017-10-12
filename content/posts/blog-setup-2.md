@@ -1,7 +1,6 @@
 ---
 title: "Blog Setup - Deployment"
-date: 2017-09-22T12:37:43+02:00
-draft: true
+date: 2017-10-12T10:02:07+02:00
 ---
 
 Since my last blog post I did some modifications to my setup on the Pi3, so I
