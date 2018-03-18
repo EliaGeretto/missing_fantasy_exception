@@ -1,7 +1,6 @@
 ---
 title: "Reviving an ASUS Eee PC 1201N"
 date: 2018-02-10T11:02:56+01:00
-draft: true
 ---
 
 A week ago or so, I decided to finally send my main laptop, an ASUS N550JV, to
