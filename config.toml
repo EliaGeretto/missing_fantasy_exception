@@ -5,7 +5,7 @@ theme = "hugo_theme_pickles"
 pygmentsStyle = "manni"
 
 [params]
-  subtitle = "Yet another oddly-titled IT security blog"
+  subtitle = "Yet another oddly-titled IT blog"
   favicon = "/images/favicon.png"
 
   author = "Elia Geretto"
